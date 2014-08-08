@@ -6,10 +6,10 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 <configuration>
 	<!-- 예시 하나만 적어 놓았고 각자 추가하시길 바랍니다.  -->
 	<typeAliases >
-		<typeAlias type="data.model.DataValue" alias="datavo"/>
-		<typeAlias type="device.model.DeviceValue" alias="devicevo"/>
-		<typeAlias type="sensor.model.SensorValue" alias="sensorvo"/>
-		<typeAlias type="sensor.model.SensorTypeValue" alias="sensortypevo"/>
+		<typeAlias type="ioedata.data.model.DataValue" alias="datavo"/>
+		<typeAlias type="ioedata.device.model.DeviceValue" alias="devicevo"/>
+		<typeAlias type="ioedata.sensor.model.SensorValue" alias="sensorvo"/>
+		<typeAlias type="ioedata.sensor.model.SensorTypeValue" alias="sensortypevo"/>
 	</typeAliases>
 	
 	<mappers>

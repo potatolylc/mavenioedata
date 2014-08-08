@@ -3,7 +3,6 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "mybatis-3-mapper.dtd">
 
-<!-- namespace 를 mabatis 에선 필수로 해야 함!!! -->
 <mapper namespace="sensor">
     <!-- ResultMap to match column names and variable names -->
 	<resultMap type="sensorvo" id="sensorRM">

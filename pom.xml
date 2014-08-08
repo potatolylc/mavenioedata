@@ -8,13 +8,21 @@
 	<name>MavenIoEData Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
+	<!-- Properties of the project -->
 	<properties>
+	    <!-- About Spring Framework -->
 		<spring.version>3.0.5.RELEASE</spring.version>
+		<!-- About Java JDK -->
 		<jdk.version>1.7</jdk.version>
+		<!-- About MyBatis -->
 		<mybatis.version>3.1.1</mybatis.version>
 		<mybatis.spring.version>1.2.0</mybatis.spring.version>
+		<!-- About Encoding -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
+	<!-- Dependency Config -->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -96,6 +104,7 @@
 		</dependency>
 	</dependencies>
 
+	<!-- Build plugins -->
 	<build>
 		<finalName>MavenIoEData</finalName>
 		<plugins>
@@ -121,6 +130,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+				<version>2.1</version>
 				<configuration>
 					<webResources>
 						<resource>
