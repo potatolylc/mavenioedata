@@ -28,5 +28,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Study/Downloads/mqtt-client-1.7-uber.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

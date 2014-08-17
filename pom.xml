@@ -10,7 +10,7 @@
 
 	<!-- Properties of the project -->
 	<properties>
-	    <!-- About Spring Framework -->
+		<!-- About Spring Framework -->
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<!-- About Java JDK -->
 		<jdk.version>1.7</jdk.version>
@@ -94,6 +94,12 @@
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20090211</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.fusesource.mqtt-client</groupId>
+			<artifactId>mqtt-client</artifactId>
+			<version>1.7</version>
 		</dependency>
 
 		<dependency>
